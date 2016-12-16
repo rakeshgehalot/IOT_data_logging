@@ -1,0 +1,7 @@
+#!/bin/bash
+
+lo=$(date)
+
+echo $lo
+echo $lo >> /home/rakesh/Public/mykom2/lok
+cat /home/rakesh/Public/mykom2/lok
