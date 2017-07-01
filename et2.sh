@@ -1,6 +1,6 @@
 #!/usr/bin/expect
 
-spawn sftp rakesh@192.168.1.14
+spawn sftp rakesh@192.168.1.00
 expect "password:"
 send "pass\n"
 expect "sftp>"
