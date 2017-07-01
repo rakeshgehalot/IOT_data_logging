@@ -1,6 +1,6 @@
-USER="ec2-user"
-HOST="52.32.75.70"
-sftp -i /home/Downloads/devappler.pem $USER@$HOST << EOF
+USER="user"
+HOST="00.00.00.00"
+sftp -i /home/Downloads/devappler.pom $USER@$HOST << EOF
 put tem
 quit 
 EOF
